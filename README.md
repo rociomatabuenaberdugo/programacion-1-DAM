@@ -9,4 +9,4 @@ Ejercicios de la asignatura '**Programación**' de **primero de DAM** (Desarroll
 
 ## Bibliografía
 
-![Aprende Java con Ejercicios](Imágenes/aprendejava.jpeg)
+![Aprende Java con Ejercicios](Imágenes/aprendejava.jpeg | width=320)
