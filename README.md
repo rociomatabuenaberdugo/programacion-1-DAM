@@ -1,2 +1,2 @@
-# programacion-1-DAM
-Ejercicios de la asignatura Programación. (1º Desarrollo de Aplicaciones Multiplataformas)
+# Programación de 1º de DAM
+Ejercicios de la asignatura 'Programación' de DAM (Desarrollo de Aplicaciones Multiplataforma) del IES Campanillas.
