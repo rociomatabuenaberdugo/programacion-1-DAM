@@ -1,0 +1,9 @@
+# Ficheros que tiene que ignorar
+
+## Ficheros de Java compilados
+
+*.class
+
+## Copias de seguridad
+
+*.bak

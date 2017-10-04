@@ -1,6 +1,8 @@
 /**
  *
- *Ejercicio 4, variables
+ *Ejercicio 4, variables: Realiza un conversor de euros a pesetas. La
+ * cantidad en euros que se quiere convertir deberá estar almacenada en
+ * una variable.
  *
  *Rocío Matabuena Berdugo
  *

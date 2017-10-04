@@ -1,6 +1,9 @@
 /**
  *
- *Ejercicio 3, variables
+ *Ejercicio 3, variables: Crea las variables nombre, direccion y
+ * teléfono y asígnale los valores correspondientes. Muestra los valores
+ * de esas variables por pantalla de tal forma que el resultado del
+ * programa sea el mismo que en el ejercicio 2.
  *
  *Rocío Matabuena Berdugo
  *
