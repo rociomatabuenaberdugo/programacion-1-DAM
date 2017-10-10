@@ -8,16 +8,14 @@
 public class Ejercicio5 {
   public static void main(String[] args) {
     
-   System.out.print("Dime la base de tu triángulo: ");
+   System.out.print("Dime la base de tu rectángulo: ");
    double b = Double.parseDouble(System.console().readLine());
    
-   System.out.print("Dime la altura de tu triángulo: ");
+   System.out.print("Dime la altura de tu rectángulo: ");
    double h = Double.parseDouble(System.console().readLine());
    
-   double a = (b * h) / 2;
-   
-   System.out.println("El área de un triángulo con base " + b +
-   " y con altura " + h + " es igual a " + a);
+   System.out.println("El área de un rectángulo con base " + b +
+   " y con altura " + h + " es igual a " + (b * h));
   
   }
 }
