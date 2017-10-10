@@ -8,7 +8,7 @@
  *
  */
  
-public class Ejercicio3 {
+public class Ejercicio03 {
  public static void main(String[] args) {
   
   System.out.print("¿Qué cantidad de pesetas quieres pasar a euros? ");

@@ -5,7 +5,7 @@
  *Rocío Matabuena Berdugo
  */
  
-public class Ejercicio5 {
+public class Ejercicio05 {
   public static void main(String[] args) {
     
    System.out.print("Dime la base de tu rectángulo: ");

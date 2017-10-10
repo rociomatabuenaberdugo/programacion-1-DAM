@@ -5,7 +5,7 @@
  *Rocío Matabuena Berdugo
  */
  
-public class Ejercicio6 {
+public class Ejercicio06 {
   public static void main(String[] args) {
     
    System.out.print("Dime la base de tu triángulo: ");
