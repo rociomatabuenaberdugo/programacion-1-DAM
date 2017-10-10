@@ -15,10 +15,13 @@ public class Ejercicio07 {
    
    double total = b + iva;
    
-   System.out.printf("Base imponible: %8.2f\n", b);
-   System.out.printf("IVA:            %8.2f\n", iva);
-   System.out.println("┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉");
-   System.out.printf("TOTAL:          %8.2f\n", total);
-  
+   System.out.println("                            ");
+   System.out.println("                            ");   
+   System.out.printf("  Base imponible: %8.2f€\n", b);
+   System.out.printf("  IVA:            %8.2f€\n", iva);
+   System.out.println("┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉");
+   System.out.printf("  TOTAL:          %8.2f€\n", total);
+   System.out.println("                            ");
+     
   }
 }
