@@ -15,9 +15,10 @@ public class Ejercicio7 {
    
    double total = b + iva;
    
-   System.out.println("El total de tu factura, con una base " + 
-   "imponible de " + b + " y " + iva + " de IVA, es " + total +
-   " euros.");
+   System.out.printf("Base imponible: %8.2f\n", b);
+   System.out.printf("IVA:            %8.2f\n", iva);
+   System.out.println("┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉┉");
+   System.out.printf("TOTAL:          %8.2f\n", total);
   
   }
 }
