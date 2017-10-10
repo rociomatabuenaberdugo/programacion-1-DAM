@@ -12,11 +12,11 @@ public class Ejercicio03 {
  public static void main(String[] args) {
   
   System.out.print("¿Qué cantidad de pesetas quieres pasar a euros? ");
-  double p = Double.parseDouble(System.console().readLine());
+  int p = Integer.parseInt(System.console().readLine());
   
   double eu = p / 166.386;
   
-  System.out.println (p + " pesetas equivalen a " + eu + " euros.");
+  System.out.printf ("%d pesetas son %.2f euros.", p, eu);
   
   }
  }
