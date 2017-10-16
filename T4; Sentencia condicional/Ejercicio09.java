@@ -33,8 +33,7 @@ public class Ejercicio09 {
 	//a vale 0, mientras que b y c tienen otro valor. x² + bx + c = 0
 	
 	if ( (a == 0) && (b != 0) && (c != 0)) {
-	   System.out.println("La ecuación no tiene soluciones reales " + 
-	   "porque no se puede dividir por 0.");
+	   System.out.println("x es igual a= " + (-c/b));
 	   
 	}
 	
