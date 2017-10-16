@@ -22,7 +22,7 @@ public class Ejercicio11 {
    int total = segunfalta - segunhechos;
    
    if (total == 0) {
-	System.out.println("Ya es media noche.");
+	System.out.println("Ya es medianoche.");
 	} else {
 		System.out.println("Faltan " + total + " segundos para " +
 		"medianoche.");
