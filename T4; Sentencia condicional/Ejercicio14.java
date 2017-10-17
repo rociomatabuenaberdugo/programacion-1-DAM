@@ -12,19 +12,22 @@ public class Ejercicio14 {
    "es divisible entre 5. ");
    System.out.println("Introduce tu número: ");   
     int num = Integer.parseInt(System.console().readLine());
-   
-   if ((num % 2 == 0)&&(num % 5 == 0)) {
+   if (num != 0) {
+	if ((num % 2 == 0)&&(num % 5 == 0)) {
 	   System.out.println("Tu número es par y divisible entre 5. "); 
-   } 
-   if ((num % 2 != 0)&&(num % 5 == 0)) {
+	} 
+	if ((num % 2 != 0)&&(num % 5 == 0)) {
 	   System.out.println("Tu número es impar y divisible entre 5. "); 
-   } 
-   if ((num % 2 != 0)&&(num % 5 != 0)) {
+	} 
+	if ((num % 2 != 0)&&(num % 5 != 0)) {
 	   System.out.println("Tu número es impar y no es divisible entre 5."); 
-   }    
-   if ((num % 2 == 0)&&(num % 5 != 0)) {
+	}    
+	if ((num % 2 == 0)&&(num % 5 != 0)) {
 	   System.out.println("Tu número es par y no es divisible entre 5. "); 
-   }    
+	} 
+} else {
+	   System.out.println("Tu número es par y no es divisible entre 5. "); 
+   } 
    
 }
 }
