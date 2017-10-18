@@ -18,12 +18,12 @@ public class Ejercicio11 {
         
     for (int i = numIntro ; i <= (numIntro+4); i++) {
 		
-		System.out.println("╭──────────┬─────────────────┬────────────────╮");
-		System.out.println("│  Número  │   Su cuadrado   │     Su cubo    │");
-		System.out.println("│──────────┴─────────────────┴────────────────│");
-		System.out.println("│   " + i + "             " + (i*i) + 
-		"               " + (i*i*i) + "        │");
-		System.out.println("╰─────────────────────────────────────────────╯");
+		System.out.println("╭──────────────┬─────────────────────┬────────────────────╮");
+		System.out.println("│    Número    │     Su cuadrado     │       Su cubo      │");
+		System.out.println("╰──────────────┴─────────────────────┴────────────────────╯");
+		System.out.println("       " + i + "                  " + (i*i) + 
+		"                 " + (i*i*i) + "       ");
+		System.out.println("                                               ");
 		
     }
   }
