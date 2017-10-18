@@ -14,7 +14,27 @@ public class Ejercicio14 {
          System.out.println("Dime un exponente que debe ser entero " + 
          "positivo.");
 		 int ex = Integer.parseInt(System.console().readLine());
-    for (int i =  ; i < ; i) {
+		 
+		 double potencia = 1;
+		 
+		 if (ex == 0) {
+				potencia = 1;
+			}
+			
+		 if (ex < 0) {
+		   for (int i = 0; i < -ex ; i++) {
+				potencia *= base;
+			}
+			potencia = 1/potencia;
+			}
+					
+		 if (ex > 0) {
+		   for (int i = 0; i < ex ; i++) 
+				potencia *= base;	
+		}
+		
+		 System.out.println(base + "^" + ex + "= " + potencia);				
+		 
 		
   
 }
