@@ -13,7 +13,11 @@ public class Ejercicio09 {
     System.out.println("Dime un número y te diré cuántos dígitos tiene.");
     num = Integer.parseInt(System.console().readLine());
     
+    if (num >= 0) {
     n = num;
+	} else {
+	n = -num;
+	}
     
     while ( n > 10) {
 		n/=10;
