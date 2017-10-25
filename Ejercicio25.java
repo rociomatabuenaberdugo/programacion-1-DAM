@@ -15,8 +15,9 @@ public class Ejercicio25 {
 	num = Integer.parseInt(System.console().readLine());
 	
 	while ( 1 <= num ) {
-		(num % 10) = x;
-		num/=10;
+		 if (num > 0) ;
+			num % 10 = x;
+			num/=10;
 	}
 	
 	System.out.print(x);
