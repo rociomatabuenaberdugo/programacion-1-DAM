@@ -42,7 +42,6 @@ public class Ejercicio24 {
 				System.out.print(i);
 		}
 		
-	
 		////////////////////////////////////////////////////////////////
 		System.out.println();
 	
