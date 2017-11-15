@@ -4,7 +4,7 @@
 * adivinar el número en el que estás pensando - un número entre 0 y 100-
 * teniendo para ello 5 oportunidades . En cada intento fallido, el
 * programa debe preguntar si el número que estás pensando es mayor o
-* menor quue el que te acaba de decir.
+* menor que el que te acaba de decir.
 * 
 *
 * Rocío Matabuena Berdugo
@@ -13,30 +13,43 @@
 public class Ejercicio14 {
   public static void main(String[] args) {
   
-	System.out.print("Dime el número en el que estés pensando" +
-	" -entre 0 y 100- (sólo tendré 5 intentos para adivinarlo): ");
-	int numUsu = Integer.parseInt(System.console().readLine());
-	System.out.println(" ");
-	do {
-		System.out.println("Te he dicho que tiene que ser un número " +
-		"entre 0 y 100");
-		System.out.print("Introduce otro número: ");
-		numUsu = Integer.parseInt(System.console().readLine());
-	} while ( (numUsu < 0) && (numUSu > 100));
-  
-    int numCom; = (int)(Math.random()*101);
+	System.out.println("Piensa un número entre el 100 y el 0. Yo tendré" + 
+	" que intentar adivinar tu número con un máximo de cinco intentos.");
+    System.out.println("Pulsa INTRO para comenzar.");
+    System.console().readLine();
+    int numUsu;
 	int tryi = 5;
+	int numMin = 0;
+	int numMax = 100;
+	int numOp;
+	boolean acierto = false;
+	
 	
 	do {
-		numCom = (int)(Math.random()*101);
+		int numCom = (int)(Math.random()*(numMax - numMin) + numMin);
+		
+		System.out.print("¿Es " + numCom + " mayor (1) a tu número," +
+		" menor (2) o igual (3) al tuyo? ");
+		numOp = Integer.parseInt(System.console().readLine());
 		tryi--;
+		
+		if ( (numOp == 1) && (tryi > 0) ) {
+			numMax = numCom;
+		}
+		if ( (numOp == 2) && (tryi > 0) ) {
+			numMin = numCom;
+		}
+		if (numOp == 3) {
+			numUsu = numCom;
+			acierto = true;
+			System.out.print("¡Bien! He acertado.");
+		}		
 	
-	} while ( (numCom != numUsu) && (tryi > 0);
+	} while ( !acierto && (tryi > 0) );
 	
-	if (numCom != numUsu) {
-		System.out.print("Felicidades, has ganado tú. No he " +
-		"conseguido adivinar tu número antes de que se me acabaran " +
-		"los cinco intentos.");
+	if (!acierto) {
+		System.out.print("Vaya, ya no tengo más intentos. No he" +
+		" conseguido adivinar tu número a tiempo.");
 	}
    
  }
