@@ -10,9 +10,6 @@
 *     mensaje "Bien, ha recuperado su moneda."
 *   d) Si las tres figuras son iguales se debe mostrar "Enhorabuena, ha
 *     ganado 10 monedas."* 
-*
-* 
-*   ❤ ♦  
 * 
 * Rocío Matabuena Berdugo
 */
