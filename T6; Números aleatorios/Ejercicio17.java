@@ -21,11 +21,12 @@ public class Ejercicio17 {
 	  " (también deberá ser mayor que 4): ");
 	  int an = Integer.parseInt(System.console().readLine());
 	  
-	  String pez = "";
+	  int posicion = 0;
+	  int posPez = (int)(Math.random()*(h-2)*(an-2));
 	  
 	  //Primera línea ////////////////////////
 	  
-	  for (int i = 1; i < an - 1; i++) {
+	  for (int i = 0; i < an - 2; i++) {
 	    System.out.print("* ");
 	  }
 	  
@@ -35,14 +36,13 @@ public class Ejercicio17 {
 	    System.out.print("*");
 	    //Espacios //////////////////////////////
 	   if (j != 1) {
-		   for (int esp = 0; esp < an - 2; esp++) {
-		     System.out.print("  ");
-//		     int espaciosPez = (int)(Math.random() * (an-3 + h-2));
-			
-//			 for (int y = 0; y < espaciosPez; y++){
-//				 System.out.print(" ");
-//			 }
-//		     System.out.print(espaciosPez + "&");
+		   for (int esp = 1; esp < an - 1; esp++) {
+			 posicion++;
+			 if (posicion == posPez) {
+				 System.out.print("& ");
+			 } else {
+				 System.out.print("  ");
+			 }
 			}
 		}
 		System.out.println(" *");
