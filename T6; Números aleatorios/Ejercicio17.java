@@ -34,7 +34,7 @@ public class Ejercicio17 {
 	  
 	  for (int j = 1; j < h ; j++) {
 	    System.out.print("*");
-	    //Espacios //////////////////////////////
+	    //Espacios + Pez //////////////////////////////
 	   if (j != 1) {
 		   for (int esp = 1; esp < an - 1; esp++) {
 			 posicion++;
