@@ -27,11 +27,22 @@ public class Ejercicio7 {
 	  }
 	  
 	  System.out.println();
+	  System.out.println();
 	  
 	  System.out.print("Dime el número que quieras sustituir de los" +
 	  " mostrados anteriormente: ");
 	  int numFue = Integer.parseInt(System.console().readLine());
 	  System.out.print("Dime por cuál número quieres sustituirlo: ");
 	  int numDen = Integer.parseInt(System.console().readLine());
+	  System.out.println();
+	  
+	  for (i = 0; i < 100; i++){
+		  
+		  if (num [i] == numFue) {
+			  System.out.print("'" + numDen + "' ");
+		  } else {
+			  System.out.print(num [i] + " ");
+		  }
+	  }
  }
 }
