@@ -13,7 +13,7 @@
 * Rocío Matabuena Berdugo
 */
 
-public class Ejercicio01 {
+public class Ejercicio1 {
   public static void main(String[] args) {
 	  
 		int[] n = new int[12];
