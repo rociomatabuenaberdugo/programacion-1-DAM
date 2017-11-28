@@ -6,7 +6,7 @@
 * Rocío Matabuena Berdugo
 */
 
-public class Ejercicio3 {
+public class Ejercicio03 {
   public static void main(String[] args) {
 	  
 	  int [] num = new int [10];
