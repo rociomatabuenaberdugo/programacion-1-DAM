@@ -29,7 +29,7 @@ public class Ejercicio11 {
 
 			for (j = 2; j < num[i]; j++) {
 				if ((num[i] % j) == 0) {
-					numPrimo[primo++0] = num[i];
+					numPrimo[primo++] = num[i];
 				} else {
 					numNoPrimo[noPrimo++] = num[i];
 				}
