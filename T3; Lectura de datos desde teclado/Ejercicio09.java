@@ -7,17 +7,16 @@
  
 public class Ejercicio09 {
   public static void main(String[] args) {
-    
-   System.out.print("Dime el radio de tu cono (en cm): ");
-   double r = Double.parseDouble(System.console().readLine());
 
-   System.out.print("Dime la altura de tu cono (en cm): ");
+		System.out.print("Dime el radio de tu cono (en cm): ");
+		double r = Double.parseDouble(System.console().readLine());
 
-   double h = Double.parseDouble(System.console().readLine());
-   
-   double v = (3.14 * r * r * h) / 3;
-   
-   System.out.println("El volumen de su cono es " + v + " cm².");
-  
-  }
+		System.out.print("Dime la altura de tu cono (en cm): ");
+
+		double h = Double.parseDouble(System.console().readLine());
+
+		double v = (3.14 * r * r * h) / 3;
+
+		System.out.println("El volumen de su cono es " + v + " cm².");
+	}
 }

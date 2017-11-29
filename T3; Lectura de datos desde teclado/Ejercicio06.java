@@ -7,17 +7,16 @@
  
 public class Ejercicio06 {
   public static void main(String[] args) {
-    
-   System.out.print("Dime la base de tu triángulo: ");
-   double b = Double.parseDouble(System.console().readLine());
-   
-   System.out.print("Dime la altura de tu triángulo: ");
-   double h = Double.parseDouble(System.console().readLine());
-   
-   double a = (b * h) / 2;
-   
-   System.out.println("El área de un triángulo con base " + b +
-   " y con altura " + h + " es igual a " + a);
-  
-  }
+
+		System.out.print("Dime la base de tu triángulo: ");
+		double b = Double.parseDouble(System.console().readLine());
+
+		System.out.print("Dime la altura de tu triángulo: ");
+		double h = Double.parseDouble(System.console().readLine());
+
+		double a = (b * h) / 2;
+
+		System.out.println("El área de un triángulo con base " + b
+				+ " y con altura " + h + " es igual a " + a);
+	}
 }

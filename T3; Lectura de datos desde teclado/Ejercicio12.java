@@ -10,22 +10,21 @@
  
 public class Ejercicio12 {
   public static void main(String[] args) {
-    
-   System.out.print("Introduce la nota que sacaste en tu primer" +
-   " examen: ");
-   double exuno = Double.parseDouble(System.console().readLine());
-   
-   System.out.print("Introduce la nota que quieres tener este" +
-   " trimestre: ");
-   
-   double media = Double.parseDouble(System.console().readLine());
-   
-   double exdospuro = media - ((double)exuno * 0.4);
-   
-   double exdos = exdospuro / 0.6;
-   
-   System.out.println("Si quieres que tu nota sea un " + media +
-   "deberás sacar un " + exdos + " en el segundo examen.");
-  
-  }
+
+		System.out.print("Introduce la nota que sacaste en tu primer"
+				+ " examen: ");
+		double exuno = Double.parseDouble(System.console().readLine());
+
+		System.out.print("Introduce la nota que quieres tener este"
+				+ " trimestre: ");
+
+		double media = Double.parseDouble(System.console().readLine());
+
+		double exdospuro = media - ((double) exuno * 0.4);
+
+		double exdos = exdospuro / 0.6;
+
+		System.out.println("Si quieres que tu nota sea un " + media
+				+ "deberás sacar un " + exdos + " en el segundo examen.");
+	}
 }

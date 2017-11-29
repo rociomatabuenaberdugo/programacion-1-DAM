@@ -8,15 +8,14 @@
  
 public class Ejercicio08 {
   public static void main(String[] args) {
-    
-   System.out.print("Dime la cantidad de horas a la semana que" +
-   " trabajas: ");
-   double h = Double.parseDouble(System.console().readLine());
+ 
+		System.out.print("Dime la cantidad de horas a la semana que"
+				+ " trabajas: ");
+		double h = Double.parseDouble(System.console().readLine());
 
-   double salario = h * 12;
-   
-   System.out.println("Su salario semanal es de " + salario +
-   " euros.");
-  
-  }
+		double salario = h * 12;
+
+		System.out.println("Su salario semanal es de " + salario
+				+ " euros.");
+	}
 }

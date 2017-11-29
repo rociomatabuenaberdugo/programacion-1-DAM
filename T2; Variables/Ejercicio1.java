@@ -10,21 +10,22 @@
  
 public class Ejercicio1 {
   public static void main(String[] args) {
-   int x = 144;
-   int y = 999;
-   
-   System.out.println("Mi variable x vale" + x);
-   System.out.println("Mi variable y vale" + y);
-   
-   System.out.println("La suma de mis variables es igual a " + (x + y));
-   
-   System.out.println("La resta de mis variables es igual a " +
-   (x - y));
-   
-   System.out.println("El resultado de dividir mis variables es " +
-   ((double)x / (double)y));
-   
-   System.out.println("El resultado de multiplicar mis variables es " +
-   (x * y));
-  }
+
+		int x = 144;
+		int y = 999;
+
+		System.out.println("Mi variable x vale " + x);
+		System.out.println("Mi variable y vale " + y);
+
+		System.out.println("La suma de mis variables es igual a " + (x + y));
+
+		System.out.println("La resta de mis variables es igual a "
+				+ (x - y));
+
+		System.out.println("El resultado de dividir mis variables es "
+				+ ((double) x / (double) y));
+
+		System.out.println("El resultado de multiplicar mis variables es "
+				+ (x * y));
+	}
 }
