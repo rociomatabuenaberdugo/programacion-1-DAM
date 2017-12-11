@@ -1,0 +1,81 @@
+/**
+* Ejercicio 6, array bidimensional: Modifica el programa anterior de tal
+* forma que no se repita ningún número en el array.
+* 						 
+* Rocío Matabuena Berdugo
+*/
+
+
+
+public class Ejercicio06 {
+  public static void main(String[] args) 
+  {
+
+		int[][] num = new int[6][10];
+		int numMax = -1;
+		int numMin = 1001;
+		int posicionimin = 0;
+		int posicionjmin = 0;
+		int posicionimax = 0;
+		int posicionjmax = 0;
+		int fil;
+		int col;
+		boolean repetido = false;
+
+		for (int i = 0; i < 6; i++) {
+			for (int j = 0; j < 10; j++) {
+				do {
+					repetido = false;
+					num[i][j] = (int) (Math.random() * 1001);
+					for (int x = 0; x < (i * 10 + j); x++) {
+						if (num[x / 10][x % 10] == num[i][j]) {
+							repetido = true;
+						}
+					}
+				} while (repetido);
+
+				if (numMin > num[i][j]) {
+					numMin = num[i][j];
+					posicionimin = i;
+					posicionjmin = j;
+				}
+
+				if (numMax < num[i][j]) {
+					numMax = num[i][j];
+					posicionimax = i;
+					posicionjmax = j;
+				}
+
+			}
+		}
+
+		System.out.print("               ");
+		for (col = 0; col < 10; col++) {
+			System.out.printf("%-7s %2d   ", "Columna", col + 1);
+		}
+
+		System.out.println();
+
+		for (fil = 0; fil < 6; fil++) {
+			System.out.print("Fila " + (fil + 1) + "      ");
+			for (col = 0; col < 10; col++) {
+				System.out.printf("%10d   ", num[fil][col]);
+			}
+			System.out.println();
+		}
+
+		System.out.println();
+		System.out.println();
+
+		System.out.print("El número máximo de la anterior serie de"
+				+ " números se encuentra en la fila "
+				+ (posicionimax + 1) + " y  en la columna "
+				+ (posicionjmax + 1));
+
+		System.out.println();
+
+		System.out.print("El número mínimo de la anterior serie de"
+				+ " números se encuentra en la fila " + (posicionimin + 1)
+				+ " y  en la columna " + (posicionjmin + 1));
+	}
+}
