@@ -360,7 +360,7 @@ public class Matematicas {
 	 * Pasa un número decimal a binario.
 	 *
 	 * @param num número introducido por el usuario en decimal.
-	 * @return un <b>int</b> que es el número resultado de pasar el número decimal a
+	 * @return un <b>String</b> que es el número resultado de pasar el número decimal a
 	 * binario.
 	 */
 	public static String decimal2binario(long num) {
