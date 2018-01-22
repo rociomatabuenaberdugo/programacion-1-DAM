@@ -355,4 +355,34 @@ public class Matematicas {
 		}
 		return suma;
 	}
+	
+	/**
+	 * Pasa un número decimal a binario.
+	 *
+	 * @param num número introducido por el usuario en decimal.
+	 * @return un <b>int</b> que es el número resultado de pasar el número decimal a
+	 * binario.
+	 */
+	public static String decimal2binario(long num) {
+
+		int copia = (int) num;
+		String binario = "";
+		int resto;
+		
+		do {
+			resto = copia % 2;
+			
+			if (resto == 1){
+				binario += "1";
+			} else {
+				binario += "0";
+			}
+			
+			copia /= 2;
+		} while (copia > 0);
+		
+		binario = new StringBuilder(binario).reverse().toString();
+	//Da la vuelta al String "binario".
+		return binario;
+	}	
 }
