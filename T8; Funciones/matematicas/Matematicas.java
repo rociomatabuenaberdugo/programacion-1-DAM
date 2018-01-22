@@ -143,8 +143,21 @@ public class Matematicas {
 		}
 	}
 
-	public static long digitos(long d) {
-		return digitos((int) d);
+	public static int digitos(long x) {
+		if (x < 0) {
+			x = -x;
+		}
+
+		if (x == 0) {
+			return 1;
+		} else {
+			int n = 0;
+			while (x > 0) {
+				x = x / 10; 
+				n++; 
+			}
+			return n;
+		}
 	}
 
 	/**
@@ -321,4 +334,25 @@ public class Matematicas {
 		return (long) (nu1 * potencia(10, digitos((int) nu2))) + nu2;
 	}
 
+	/**
+	 * Pasa un número binario a decimal.
+	 *
+	 * @param num número introducido por el usuario en binario.
+	 * @return un <b>int</b> que es el número resultado de pasar el número binario a
+	 * decimal.
+	 */
+	public static long binario2decimal(long num) {
+
+		int suma = 0;
+
+		int copia = (int) num;
+		int resto = 0;
+		for (int i = 0; i < Matematicas.digitos(copia); ++i) {
+			resto = (int) num % 10;
+
+			suma += ((Matematicas.potencia(2, i)) * resto);
+			num /= 10;
+		}
+		return suma;
+	}
 }
