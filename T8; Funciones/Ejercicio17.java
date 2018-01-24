@@ -14,16 +14,14 @@ import java.util.Scanner;
  */
 public class Ejercicio17 {
 
-	public static void main(String[] args) {
-		
-		Scanner s = new Scanner(System.in);
+  public static void main(String[] args) {
 
-		System.out.print("Introduzca un número binario: ");
-		long numero = s.nextInt();
+    Scanner s = new Scanner(System.in);
 
-		System.out.println(numero + " en binario es el número " +
-				matematicas.Matematicas.binario2decimal(numero) + " en decimal.");
+    System.out.print("Introduzca un número binario: ");
+    long numero = s.nextInt();
 
-	}
-
+    System.out.println(numero + " en binario es el número "
+            + matematicas.Matematicas.binario2decimal(numero) + " en decimal.");
+  }
 }
