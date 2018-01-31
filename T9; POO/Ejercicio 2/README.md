@@ -5,11 +5,24 @@ están escritos en minúscula. Di cuáles son las clases, cuáles las instancias
 entre las clases: paula, goofy, gardfiel, perro, mineral, caballo, tom, silvestre, pirita, rocinante, milu, snoopy, gato, pluto, animal, javier, bucefalo, pegaso,
 ayudante_de_santa_claus, cuarzo, laika, persona, pato_lucas.
 
-### Atributos:
+##### Clases
 
-nombre, apellidos, edad, nacionalidad, numTitulosGanados, escuderiaActual, historialDeEscuderia, numPoles, victorias, carrerasJugadas, numDePuntos, mejorTemporada
+perro, mineral, caballo, gato, animal, persona
 
-### Ejemplos de objetos (instancias):
+##### Instancias
 
-fernandoAlonso, lewisHamilton, carlosSainz, sebastianVettel...
+paula, goofy, gardfiel, pirita, tom, silvestre, rocinante, milu, snoope, pluto, javier, bucefalo, pegaso, ayudanteDeSantaClaus, cuarzo, laika, patoLucas
 
+##### Relación
+
+Persona  --  paula, javier, ayudanteDeSantaClaus
+Perro  --  goofy, milu, snoopy, pluto
+Gato  --  gardfiel, tom, silvestre
+Caballo  --  rocinante, bucefalo, pegaso
+Mineral  --  pirita, cuarzo
+
+##### Relación (2)
+
+Animal {Perro, Gato, Caballo} ;
+Persona;
+Mineral;
