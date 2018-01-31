@@ -1,4 +1,6 @@
-﻿# ¿Cuáles serían los atributos de la clase PilotoDeFormula1? ¿Se te ocurren algunas instancias de esta clase?
+﻿# Ejercicio 1
+
+## ¿Cuáles serían los atributos de la clase PilotoDeFormula1? ¿Se te ocurren algunas instancias de esta clase?
 
 ### Atributos:
 
