@@ -6,4 +6,6 @@
 nombreCompleto, edad, clase, curso,...
 
 
-Sí
+
+
+  Sí, nombre formaría parte de mis atributos.
