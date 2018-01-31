@@ -15,11 +15,11 @@ paula, goofy, gardfiel, pirita, tom, silvestre, rocinante, milu, snoope, pluto, 
 
 ##### Relación
 
-Persona  --  paula, javier, ayudanteDeSantaClaus
-Perro  --  goofy, milu, snoopy, pluto
-Gato  --  gardfiel, tom, silvestre
-Caballo  --  rocinante, bucefalo, pegaso
-Mineral  --  pirita, cuarzo
+  Persona  --  paula, javier, ayudanteDeSantaClaus
+  Perro  --  goofy, milu, snoopy, pluto
+  Gato  --  gardfiel, tom, silvestre
+  Caballo  --  rocinante, bucefalo, pegaso 
+  Mineral  --  pirita, cuarzo
 
 ##### Relación (2)
 
