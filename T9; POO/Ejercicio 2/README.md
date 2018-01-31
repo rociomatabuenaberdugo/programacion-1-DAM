@@ -9,9 +9,13 @@ ayudante_de_santa_claus, cuarzo, laika, persona, pato_lucas.
 
 perro, mineral, caballo, gato, animal, persona
 
+
+
 ##### Instancias
 
 paula, goofy, gardfiel, pirita, tom, silvestre, rocinante, milu, snoope, pluto, javier, bucefalo, pegaso, ayudanteDeSantaClaus, cuarzo, laika, patoLucas
+
+
 
 ##### Relación
 
@@ -20,6 +24,8 @@ paula, goofy, gardfiel, pirita, tom, silvestre, rocinante, milu, snoope, pluto, 
   Gato  --  gardfiel, tom, silvestre
   Caballo  --  rocinante, bucefalo, pegaso 
   Mineral  --  pirita, cuarzo
+
+
 
 ##### Relación (2)
 
