@@ -13,8 +13,9 @@ paula, goofy, gardfiel, pirita, tom, silvestre, rocinante, milu, snoope, pluto, 
 
 
 ##### Relación
-Persona  --  paula, javier, ayudanteDeSantaClaus
-Perro  --  goofy, milu, snoopy, pluto
+  Persona  --  paula, javier, ayudanteDeSantaClaus
+
+  Perro  --  goofy, milu, snoopy, pluto
   
   Gato  --  gardfiel, tom, silvestre
   
