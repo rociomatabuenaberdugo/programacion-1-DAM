@@ -39,3 +39,52 @@ paula, goofy, gardfiel, pirita, tom, silvestre, rocinante, milu, snoope, pluto, 
 Animal {Perro, Gato, Caballo} ;
 Persona;
 Mineral;
+
+# Ejercicio 3
+
+### ¿Cuáles serían los atributos de la clase Vivienda? ¿Qué subclases se te ocurren?
+
+##### Atributos
+catastro, metrosCuadrados, numeroDeHabitaciones, numeroDeBanos, direccion, precio, tipo, codPropietario...
+
+##### Subclases
+duplex, piso, chalet, atico, loft...
+
+# Ejercicio 4
+
+### Piensa en la liga de baloncesto, ¿qué 5 clases se te ocurren para representar 5 elementos distintos que intervengan en la liga?
+
+##### Clases
+arbitro, equipos, cancha, comentarista, partido.
+
+# Ejercicio 5
+
+### Haz una lista con los atributos que podría tener la clase caballo. A continuación haz una lista con los posibles métodos (acciones asociadas a los caballos).
+
+##### Atributos
+nombre, edad, color, sexo, raza, peso, propietario, identificacion,...
+
+##### Métodos
+rinchar, cabalgar, comer, saltar, correr,...
+
+# Ejercicio 6
+
+### Lista los atributos de la clase Alumno ¿Sería nombre uno de los atributos de la clase? Razona tu respuesta.
+
+##### Atributos
+nombreCompleto, edad, clase, curso,...
+
+
+
+
+  Sí, nombre formaría parte de mis atributos.
+
+# Ejercicio 7
+
+### ¿Cuáles serían los atributos de la clase Ventana (de ordenador)? ¿cuáles serían los métodos? Piensa en las propiedades y en el comportamiento de una ventana de cualquier programa.
+
+##### Atributos
+anchura, altura, estado, colorDeFondo, redimensionar, tieneFoco, posicionX, posicionY, posicionZ, nombre...
+
+##### Métodos
+cerrar, nuevaPestaña, minimizar, maximizar, ampliar
