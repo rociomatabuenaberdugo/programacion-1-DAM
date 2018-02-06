@@ -32,14 +32,14 @@ public class Caballo {
   }
 
   void cabalga() {
-    System.out.println("Â¿Vamos a pasear?");
+    System.out.println("¿Vamos a pasear?");
   }
 
   void come(String x) {
     if (x.equals("manzana")) {
-      System.out.println("QuÃ© ricas.");
+      System.out.println("Que ricas.");
     } else {
-      System.out.println("Lo siento, sÃ³lo como manzanas.");
+      System.out.println("Lo siento, sólo como manzanas.");
     }
   }
 
@@ -48,7 +48,15 @@ public class Caballo {
   }
 
   void corre() {
-    System.out.println("Â¡MÃ¡s rÃ¡pido, mÃ¡s rÃ¡pido!");
+    System.out.println("¡Má¡s rápido, más rápido!");
   }
 
+  @Override
+  public String toString() {
+    return "Caballo {" + "nombre=" + nombre + ", edad=" + edad + ", color=" + color + '}';
+  }
+
+  
+  
+  
 }
