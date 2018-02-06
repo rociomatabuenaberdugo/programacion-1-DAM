@@ -1,3 +1,5 @@
+package pruebacaballo;
+
 
 public class PruebaCaballo {
 
@@ -17,5 +19,14 @@ public class PruebaCaballo {
     System.out.println("Hola, yo soy " + l.getNombre());
     l.corre();
     l.come("manzana");
+    
+    System.out.println();
+    System.out.println();
+    System.out.println(a);
+    System.out.println(l);
+    
+    System.out.println();
+    System.out.println();
+    
   }
   }

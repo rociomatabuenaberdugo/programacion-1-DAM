@@ -1,3 +1,5 @@
+package pruebacaballo;
+
 
 /**
  *Implementa la clase Caballo vista en un ejercicio anterior. PruÃ©bala creando instancias y
@@ -32,14 +34,14 @@ public class Caballo {
   }
 
   void cabalga() {
-    System.out.println("¿Vamos a pasear?");
+    System.out.println("Â¿Vamos a pasear?");
   }
 
   void come(String x) {
     if (x.equals("manzana")) {
       System.out.println("Que ricas.");
     } else {
-      System.out.println("Lo siento, sólo como manzanas.");
+      System.out.println("Lo siento, sÃ³lo como manzanas.");
     }
   }
 
@@ -48,15 +50,11 @@ public class Caballo {
   }
 
   void corre() {
-    System.out.println("¡Má¡s rápido, más rápido!");
+    System.out.println("Â¡MÃ¡s rÃ¡pido, mÃ¡s rÃ¡pido!");
   }
 
   @Override
   public String toString() {
     return "Caballo {" + "nombre=" + nombre + ", edad=" + edad + ", color=" + color + '}';
-  }
-
-  
-  
-  
+  } 
 }
