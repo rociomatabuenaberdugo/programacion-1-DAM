@@ -4,7 +4,7 @@ public class Animal {
   private String nombre = "";
   private String color = "";
   private double peso;
-  private String sexo = "";
+  private Sexo sexo;
   
   public Animal(int e, String n, String c, double p, String s) {
     edad = e;
