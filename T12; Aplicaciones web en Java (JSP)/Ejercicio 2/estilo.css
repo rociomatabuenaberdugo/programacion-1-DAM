@@ -1,0 +1,18 @@
+h2{
+	color: green;
+}
+
+#dire{
+	color: blue;
+}
+
+.tlf{
+	color: gold;
+}
+
+#contenedor{
+  position: absolute;
+  margin-left: 20px;
+  text-align: center;
+}
+
